@@ -1,4 +1,4 @@
 ## Libraries
-. React
-. Styled components
-. React icons
+- React
+- Styled components
+- React icons
