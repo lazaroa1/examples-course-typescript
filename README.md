@@ -1,4 +1,6 @@
-##Libraries
-.React
-.Styled components
-.React icons
+## Libraries
+
+- React
+- Styled components
+- @types/Styled components
+- React icons

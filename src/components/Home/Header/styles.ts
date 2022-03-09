@@ -1,7 +1,11 @@
 import styled from "styled-components";
 import { SiGithub, SiTypescript, SiReact } from "react-icons/si";
 
-export const Container = styled.div`
+interface ContainerProps {}
+
+interface IconsProps {}
+
+export const Container = styled.div<ContainerProps>`
   background-color: #2a2929;
   position: fixed;
   top: 0;
@@ -43,20 +47,20 @@ export const Container = styled.div`
   }
 `;
 
-export const TypeScriptIcon = styled(SiTypescript)`
+export const TypeScriptIcon = styled(SiTypescript)<IconsProps>`
   color: #757575;
   width: 40px;
   height: 40px;
 `;
 
-export const ReactIcon = styled(SiReact)`
+export const ReactIcon = styled(SiReact)<IconsProps>`
   color: #757575;
   width: 40px;
   height: 40px;
   margin-left: 10px;
 `;
 
-export const GitHubIcon = styled(SiGithub)`
+export const GitHubIcon = styled(SiGithub)<IconsProps>`
   width: 20px;
   height: 20px;
 `;
