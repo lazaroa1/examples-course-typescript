@@ -4,16 +4,16 @@ import Content from "./Content";
 import { Container } from "./styles";
 
 interface props {
-  // route: {};
-  // routes: [];
+  route: {};
+  routes: [];
   children: React.ReactChildren;
 }
 
-export default function Home({ children }: props) {
+export default function Home({ route, routes, children }: props) {
   return (
     <Container>
       <Header />
-      <SideMenu />
+      <SideMenu routes={routes} />
       <Content content={children} />
     </Container>
   );

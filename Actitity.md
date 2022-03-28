@@ -4,3 +4,5 @@
 [] animacao dos modulos ?
 [] navegar pelas options
 [] estilizar a tela do conteudo
+[] mudar rota padrao `/` para o nome do componente `/component`
+[] dividir as options dos moduloes no lado direito ?

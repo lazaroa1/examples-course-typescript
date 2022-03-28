@@ -13,14 +13,14 @@ interface Values {
 export const routes: Array<Values> = [
   {
     path: "/",
-    name: "AAAAAAA",
+    name: "Seção 1: Usando Tipos",
     component: Aa,
     options: [],
     exact: true,
   },
   {
     path: "/bb",
-    name: "BBBBBB",
+    name: "Seção 2: Entendendo o Compilador TypeScript",
     component: Bb,
     options: [],
   },

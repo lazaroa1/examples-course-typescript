@@ -1,17 +1,22 @@
-import { Container, ArrowDownIcon } from "./styles";
+import { Container } from "./styles";
+import { Link } from "react-router-dom";
 
-export default function SideMenu() {
+interface Props {
+  routes: [];
+}
+
+export default function SideMenu({ routes }: Props) {
+  console.log(routes);
   return (
     <Container>
       <ul className="list-container">
-        <li className="section">
-          <b>Secao 1</b>
-          <ArrowDownIcon />
-        </li>
-        <li className="module">
-          <p>modulo</p>
-          <p>modulo</p>
-        </li>
+        {routes.map((route, index) => (
+          <li key={index}>
+            <Link to={route.path} className="section">
+              {route.name}
+            </Link>
+          </li>
+        ))}
       </ul>
     </Container>
   );

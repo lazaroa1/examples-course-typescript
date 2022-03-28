@@ -1,9 +1,6 @@
 import styled from "styled-components";
-import { GoChevronDown } from "react-icons/go";
 
 interface ContainerProps {}
-
-interface ContainerIcons {}
 
 export const Container = styled.div<ContainerProps>`
   position: fixed;
@@ -25,28 +22,11 @@ export const Container = styled.div<ContainerProps>`
     list-style-type: none;
 
     .section {
-      font-size: 32px;
+      font-size: 20px;
       color: #bebebe;
       display: flex;
       align-items: center;
-      margin-bottom: 10px;
-    }
-
-    .module {
-      font-size: 24px;
-      color: #bebebe;
-      margin-left: 15px;
-      padding-left: 10px;
-      border-left: 1px solid #757575;
-      > p {
-        margin: 0;
-      }
+      margin-bottom: 20px;
     }
   }
-`;
-
-export const ArrowDownIcon = styled(GoChevronDown)<ContainerIcons>`
-  height: 25px;
-  width: 15px;
-  margin-left: 10px;
 `;
