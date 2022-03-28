@@ -7,7 +7,7 @@ interface IconsProps {}
 
 export const Container = styled.div<ContainerProps>`
   background-color: #2a2929;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;

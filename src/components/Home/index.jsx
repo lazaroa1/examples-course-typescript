@@ -1,5 +1,6 @@
 import Header from "./Header";
 import SideMenu from "./SideMenu";
+import Content from "./Content";
 import { Container } from "./styles";
 
 interface props {
@@ -9,14 +10,11 @@ interface props {
 }
 
 export default function Home({ children }: props) {
-  console.log("aqui", children);
   return (
     <Container>
-      {<Header />}
-      <div>
-        <SideMenu />
-        <div className="content">{children}</div>
-      </div>
+      <Header />
+      <SideMenu />
+      <Content content={children} />
     </Container>
   );
 }

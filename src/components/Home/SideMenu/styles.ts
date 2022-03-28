@@ -7,10 +7,10 @@ interface ContainerIcons {}
 
 export const Container = styled.div<ContainerProps>`
   position: fixed;
-  top: 0;
+  top: 1px;
   left: 0;
   height: 100%;
-  width: 300px;
+  width: 15%;
   background-color: #181818;
   margin-top: 76px;
   border-right: 1px solid;
