@@ -6,7 +6,6 @@ interface Props {
 }
 
 export default function SideMenu({ routes }: Props) {
-  console.log(routes);
   return (
     <Container>
       <ul className="list-container">

@@ -7,7 +7,7 @@ export const Container = styled.div<ContainerProps>`
   top: 1px;
   left: 0;
   height: 100%;
-  width: 15%;
+  width: 20%;
   background-color: #181818;
   margin-top: 76px;
   border-right: 1px solid;
@@ -17,16 +17,17 @@ export const Container = styled.div<ContainerProps>`
   justify-content: center;
   padding: 40px 0;
 
+  li {
+    margin-bottom: 20px;
+  }
+
   .list-container {
     padding: 0;
     list-style-type: none;
 
     .section {
-      font-size: 20px;
+      font-size: 16px;
       color: #bebebe;
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
     }
   }
 `;

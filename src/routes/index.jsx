@@ -12,7 +12,7 @@ export default function routes() {
             path={route.path}
             exact={route.exact}
             element={
-              <Home routes={componentRoutes}>
+              <Home routes={componentRoutes} route={route}>
                 <route.component />
               </Home>
             }

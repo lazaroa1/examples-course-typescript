@@ -14,7 +14,7 @@ export default function Home({ route, routes, children }: props) {
     <Container>
       <Header />
       <SideMenu routes={routes} />
-      <Content content={children} />
+      <Content content={children} modules={route.modules} />
     </Container>
   );
 }
