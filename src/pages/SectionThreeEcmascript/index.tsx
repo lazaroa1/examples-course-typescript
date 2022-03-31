@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 
-export default function Bb() {
+export default function SectionThreeEcmascript() {
   return (
     <Container>
-      <p>bb</p>
+      <p>EcmaScript</p>
     </Container>
   );
 }

@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 
-export default function Aa() {
+export default function SectionFiveObjects() {
   return (
     <Container>
-      <p>aa</p>
+      <p>Objects</p>
     </Container>
   );
 }
