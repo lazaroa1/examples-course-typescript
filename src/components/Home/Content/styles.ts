@@ -15,8 +15,12 @@ export const Container = styled.div<ContainerProps>`
 
   .content {
     width: 100%;
-    background-color: red;
     padding: 20px;
+    color: #f5f6f7;
+
+    .section-title {
+      text-align: center;
+    }
   }
 
   .modules-container {

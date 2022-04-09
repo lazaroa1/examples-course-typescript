@@ -19,7 +19,7 @@ interface Values {
 export const routes: Array<Values> = [
   {
     path: "/",
-    name: "Seção 2: Usando Tipos",
+    name: "Section 2: Using Types",
     component: SectionTwoTypes,
     modules: [
       {
