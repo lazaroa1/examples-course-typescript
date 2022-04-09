@@ -14,7 +14,7 @@ interface Props {
 export default function Content({ modules, content }: Props) {
   return (
     <Container>
-      <div style={{ backgroundColor: "blue" }}>{content}</div>
+      <div className="content">{content}</div>
       <div className="modules-container">
         {modules.map((module) => (
           <div key={module.model}>

@@ -12,7 +12,7 @@ export default function SideMenu({ routes }: Props) {
         {routes.map((route, index) => (
           <li key={index}>
             <Link to={route.path} className="section">
-              {route.name}
+              <b>{route.name}</b>
             </Link>
           </li>
         ))}

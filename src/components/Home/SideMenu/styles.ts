@@ -15,10 +15,15 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 40px 0;
+  padding: 20px 0px;
 
   li {
-    margin-bottom: 20px;
+    :hover {
+      background-color: #242424;
+      border-radius: 5px;
+    }
+    margin: 20px;
+    padding: 5px 16px;
   }
 
   .list-container {
@@ -28,6 +33,7 @@ export const Container = styled.div<ContainerProps>`
     .section {
       font-size: 16px;
       color: #bebebe;
+      text-decoration: none;
     }
   }
 `;

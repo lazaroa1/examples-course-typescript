@@ -6,6 +6,5 @@ interface Props {
 }
 
 export default function Options({ model, modelName }: Props) {
-  console.log(model, modelName);
   return <Container key={model}>{modelName}</Container>;
 }

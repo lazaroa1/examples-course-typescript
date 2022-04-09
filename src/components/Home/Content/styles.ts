@@ -13,9 +13,16 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   justify-content: space-between;
 
+  .content {
+    width: 100%;
+    background-color: red;
+    padding: 20px;
+  }
+
   .modules-container {
+    width: 30%;
     margin-top: 10px;
     font-size: 14px;
-    color: #bebebe;
+    color: #ffff;
   }
 `;
