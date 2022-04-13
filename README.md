@@ -5,3 +5,4 @@
 - React icons
 - react-router-dom
 - @types/react-router-dom
+- react-code-blocks
