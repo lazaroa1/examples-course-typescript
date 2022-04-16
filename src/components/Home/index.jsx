@@ -1,5 +1,4 @@
 import Header from "./Header";
-import SideMenu from "./SideMenu";
 import Content from "./Content";
 import { Container } from "./styles";
 
@@ -12,9 +11,12 @@ interface props {
 export default function Home({ route, routes, children }: props) {
   return (
     <Container>
-      <Header />
-      <SideMenu routes={routes} />
-      <Content content={children} modules={route.modules} />
+      <div className="bg-primary">
+        <Header />
+      </div>
+      <div>
+        <Content content={children} modules={route.modules} routes={routes} />
+      </div>
     </Container>
   );
 }

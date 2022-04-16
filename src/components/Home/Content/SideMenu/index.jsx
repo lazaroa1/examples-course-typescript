@@ -10,7 +10,7 @@ export default function SideMenu({ routes }: Props) {
     <Container>
       <ul className="list-container">
         {routes.map((route, index) => (
-          <li key={index}>
+          <li key={index} className="mb-2">
             <Link to={route.path} className="section">
               <b>{route.name}</b>
             </Link>
