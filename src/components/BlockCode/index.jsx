@@ -6,7 +6,6 @@ interface Props {
 }
 
 function BlockCode({ code }: Props) {
-  console.log(typeof code);
   return (
     <Container>
       <CopyBlock
