@@ -18,6 +18,7 @@ export const Container = styled.div<ContainerProps>`
 
   .list-container {
     list-style-type: none;
+    padding: 12px;
 
     .section {
       font-size: 16px;
