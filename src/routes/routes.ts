@@ -51,16 +51,8 @@ export const routes: Array<Values> = [
         modelName: "The 'Any' Type",
       },
       {
-        model: 8,
-        modelName: "Generated JavaScript Code",
-      },
-      {
         model: 9,
         modelName: "Using Types in Functions (Parameters and Return)",
-      },
-      {
-        model: 10,
-        modelName: "Functions As Types",
       },
       {
         model: 11,
