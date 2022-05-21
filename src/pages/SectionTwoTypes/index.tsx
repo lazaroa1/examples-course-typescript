@@ -26,11 +26,11 @@ export default function SectionTwoTypes() {
       </div>
       <div className="wrapper">
         <h2>Numeric and Boolean Types</h2>
-        <BlockCode code={c.NumericBolleanCode} />
+        <BlockCode code={c.numericBolleanCode} />
       </div>
       <div className="wrapper">
         <h2>Assigning Explicit Types</h2>
-        <BlockCode code={c.ExplicitTypeCode} />
+        <BlockCode code={c.explicitTypeCode} />
         <div className="mt-3 d-flex">
           <div>
             <label>Type an age:</label>
@@ -46,23 +46,23 @@ export default function SectionTwoTypes() {
       </div>
       <div className="wrapper">
         <h2>Arrays and Types</h2>
-        <BlockCode code={c.ArrayCode} />
+        <BlockCode code={c.arrayCode} />
       </div>
       <div className="wrapper">
         <h2>Tuples</h2>
-        <BlockCode code={c.TuplesCode} />
+        <BlockCode code={c.tuplesCode} />
       </div>
       <div className="wrapper">
         <h2>Enums</h2>
-        <BlockCode code={c.EnumCode} />
+        <BlockCode code={c.enumCode} />
       </div>
       <div className="wrapper">
         <h2>The 'Any' Type</h2>
-        <BlockCode code={c.AnyCode} />
+        <BlockCode code={c.anyCode} />
       </div>
       <div className="wrapper">
         <h2>Using Types in Functions (Parameters and Return)</h2>
-        <BlockCode code={c.FunctionCode} />
+        <BlockCode code={c.functionCode} />
         <div className="mt-3">
           <div className="row mb-2">
             <div className="col">
@@ -94,23 +94,15 @@ export default function SectionTwoTypes() {
       </div>
       <div className="wrapper">
         <h2>Objects and Types</h2>
-        <BlockCode code={c.ObjectCode} />
+        <BlockCode code={c.objectCode} />
       </div>
       <div className="wrapper">
-        <h2>Arrays and Types</h2>
-        <BlockCode code={``} />
+        <h2>Union Types</h2>
+        <BlockCode code={c.unionTypesCode} />
       </div>
       <div className="wrapper">
-        <h2>Arrays and Types</h2>
-        <BlockCode code={``} />
-      </div>
-      <div className="wrapper">
-        <h2>Arrays and Types</h2>
-        <BlockCode code={``} />
-      </div>
-      <div className="wrapper">
-        <h2>Arrays and Types</h2>
-        <BlockCode code={``} />
+        <h2>Checking types</h2>
+        <BlockCode code={c.checkingTypesCode} />
       </div>
     </Container>
   );

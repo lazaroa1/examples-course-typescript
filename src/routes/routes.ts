@@ -60,39 +60,11 @@ export const routes: Array<Values> = [
       },
       {
         model: 12,
-        modelName: "Object Type Challenge",
+        modelName: "Union Types",
       },
       {
         model: 13,
-        modelName: "Object Type Challenge - Answer",
-      },
-      {
-        model: 14,
-        modelName: "Defining Custom Types (Alias)",
-      },
-      {
-        model: 15,
-        modelName: "Multiple Types with Union Types",
-      },
-      {
-        model: 16,
-        modelName: "Creating Types in Runtime",
-      },
-      {
-        model: 17,
-        modelName: "The 'Never' Type",
-      },
-      {
-        model: 18,
-        modelName: "Optional Values with Type 'Null'",
-      },
-      {
-        model: 19,
-        modelName: "Challenge: Transform JS Code into TS",
-      },
-      {
-        model: 20,
-        modelName: "Challenge: Transform JS Code into TS - Answer",
+        modelName: "Checking types",
       },
     ],
     exact: true,
